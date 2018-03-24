@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#######################################
+# Bash script to install an Ionic Apps
+# Written by Porfirio Ángel Díaz Sánchez 
+#######################################
+
+
 if [ ! -f my-release-key.keystore ]; then
     echo "Creating the sign key..."
     echo ""
